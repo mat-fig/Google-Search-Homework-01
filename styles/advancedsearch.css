@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.adv-text {
+  margin: 25px 10px;
+}
+.adv-text label {
+  color:firebrick;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+.line {
+  border-bottom: solid 1px #d6d6d6;
+}
+
+.adv-search {
+  margin: 20px 80px;
+}
+.adv-search label {
+ 
+  width: 16%;
+  font-size: 20px;
+}
+.adv-search .space {
+  display: inline-block;
+  width: 50%;
+}
+.adv-search .adv-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.adv-search .adv-form label {
+  width: 16%;
+  font-size: 15px;
+}
+.adv-search .adv-form  input {
+  width: 50%;
+  padding: 2px;
+}
+.adv-search .adv-form .examples {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.adv-search .adv-form  .btn-align {
+  width: 50%;
+}
+
+.adv-search .adv-form .two-inputs {
+    width: 50%;
+}
+
+.adv-search .adv-form .two-inputs .inner {
+    display: flex;
+    align-items: center;
+}
+
+
+.adv-search .adv-form .two-inputs .inner input {
+    margin: 10px;
+}
+
+.adv-search .adv-form .two-inputs .inner .to {
+    width: 5%;
+    margin-left: 10px;
+}
+
+
+input.adv-button {
+    background-color:cornflowerblue;
+    color:black;
+    font-weight: bold;
+    max-width: 200px;
+    border-radius: 10px;
+    float: right;
+  }

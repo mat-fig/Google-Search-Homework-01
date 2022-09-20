@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--CSS link-->
+    <link rel="stylesheet" href="../styles/advancedsearch.css" />
+    <title>Advanced Search</title>
+</head>
+<body>
+    <!--HEADER-->
+    <div class="header">
+        <h3>GOOGLE?</h3>
+        <a href="../index.html">Back to search</a>
+    </div>
+    <div class="adv-text">
+        <label>Advanced Search</label>
+    </div>
+    <div class="line"></div>
+    <!--ADVANCED SEARCH MAIN-->
+    <div class="adv-search">
+        <form action="https://www.google.com/search" method="get">
+            <div class="space"></div>
+            <div class="adv-form ">
+                <label>All these words:</label>
+                <input type="text" name="as_q">
+                <div class="examples">
+                    Type the important words: 
+                    <span>tri-colour rat terrier</span>
+                </div>
+            </div>
+            <div class="adv-form ">
+                <label>This exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <div class="examples">
+                    Put exact words in quotes: 
+                    <span>"rat terrier"</span>
+                </div>
+            </div>
+            <div class="adv-form">
+                <label>Any of these words: </label>
+                <input type="text" name="as_oq">
+                <div class="examples">
+                    Type OR between all the words you want: <span>miniature OR standard</span>
+                </div>
+            </div>
+            <div class="adv-form">
+                <label>None of these words:</label>
+                <input type="text" name="as_eq">
+                <div class="examples">
+                    Put a minus sign just before words that you don't want: 
+                    <span>-rodent, -"Jack Russell"</span>
+                </div>
+            </div>
+            <div class="adv-form">
+                <label>numbers ranging from:</label>
+                <div class="two-inputs">
+                    <div class="inner">
+                        <input type="text" class="adv-number-range" name="as_nlo">
+                        <label class="to">to</label>
+                        <input type="text" class="adv-number-range" name="as_nhi">
+                    </div>
+                </div>
+                <div class="examples">
+                    Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011
+                </div>
+            </div>
+            <div class="adv-form">
+                <label></label>
+                <div class="btn-align">
+                    <input type="submit" class="adv-button" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+    </div>
+ 
+</body>
+</html>

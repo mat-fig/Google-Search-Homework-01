@@ -1,0 +1,32 @@
+.top-div {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.top-div a {
+    margin-left: 20px;
+}
+
+#main-div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#logo-div {
+    display: inline-flex;
+}
+
+#logo-div h1 {
+    font-size: 50px;
+}
+
+#g {color:darksalmon;}
+
+#o {color:darkblue}
+
+#l {color:maroon;}
+
+#e {color: blue;}
+
+
+
